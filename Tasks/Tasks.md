@@ -51,3 +51,28 @@ class Program {
 ## Задача 5
 
 * Реализовать подсчет чисел полностью.
+
+## Задача 6
+
+```JAVA
+class Program {
+	public static void main(String args[]) {
+		char numberAsArray[] = {'3', '2', '7', '8'};
+		int number;
+		...
+
+		System.out.println(number); // 3278
+	}		 
+}
+```
+
+## Задача 7
+
+* Реализовать бинарный поиск над массивом, в котором гарантированно этот элемент встречаемся.
+
+```JAVA
+public static int search(int array[], int element) {
+	...
+	return индекс_найденного_элемента;
+}
+```
