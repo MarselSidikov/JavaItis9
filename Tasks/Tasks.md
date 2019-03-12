@@ -108,3 +108,4 @@ public static int search(int array[], int element) {
 ``` 
 
 * Подстроить масштаб.
+
