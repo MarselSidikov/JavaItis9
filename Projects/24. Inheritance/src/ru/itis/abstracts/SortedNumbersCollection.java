@@ -2,16 +2,16 @@ package ru.itis.abstracts;
 
 /**
  * 12.03.2019
- * SortedNumbers
+ * SortedNumbersCollection
  *
  * @author Sidikov Marsel (First Software Engineering Platform)
  * @version v1.0
  */
-public abstract class SortedNumbers {
+public abstract class SortedNumbersCollection implements NumbersCollection {
     protected int array[];
     private boolean isSorted;
 
-    public SortedNumbers(int array[]) {
+    public SortedNumbersCollection(int array[]) {
         this.array = array;
         this.isSorted = false;
     }

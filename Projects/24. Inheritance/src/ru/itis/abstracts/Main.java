@@ -10,15 +10,15 @@ package ru.itis.abstracts;
 public class Main {
     public static void main(String[] args) {
         int array[] = {4, 1, 2, 5, 6, 7, 1, 1, 6, 9};
-        SortedNumbers sortedNumbers
-                = new SortedNumbersBubbleSortImpl(array);
-        System.out.println(sortedNumbers.getMax());
-        System.out.println(sortedNumbers.getMin());
+        NumbersCollection collection
+                = new SimpleNumberCollection(array);
+        System.out.println(collection.getMax());
+        System.out.println(collection.getMin());
 
-        for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i] + ", ");
-        }
-        System.out.println();
-        System.out.println(sortedNumbers.indexOf(6));
+//        for (int i = 0; i < array.length; i++) {
+//            System.out.print(array[i] + ", ");
+//        }
+//        System.out.println();
+        System.out.println(collection.indexOf(9));
     }
 }

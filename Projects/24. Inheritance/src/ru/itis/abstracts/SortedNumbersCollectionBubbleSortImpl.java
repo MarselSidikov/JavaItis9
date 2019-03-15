@@ -2,13 +2,13 @@ package ru.itis.abstracts;
 
 /**
  * 12.03.2019
- * SortedNumbersBubbleSortImpl
+ * SortedNumbersCollectionBubbleSortImpl
  *
  * @author Sidikov Marsel (First Software Engineering Platform)
  * @version v1.0
  */
-public class SortedNumbersBubbleSortImpl extends SortedNumbers {
-    public SortedNumbersBubbleSortImpl(int[] array) {
+public class SortedNumbersCollectionBubbleSortImpl extends SortedNumbersCollection {
+    public SortedNumbersCollectionBubbleSortImpl(int[] array) {
         super(array);
     }
 
