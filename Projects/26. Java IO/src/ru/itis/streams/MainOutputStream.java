@@ -1,16 +1,16 @@
-package ru.itis;
+package ru.itis.streams;
 
 import java.io.FileOutputStream;
 import java.io.OutputStream;
 
 /**
  * 14.03.2019
- * MainOutStream
+ * MainOutputStream
  *
  * @author Sidikov Marsel (First Software Engineering Platform)
  * @version v1.0
  */
-public class MainOutStream {
+public class MainOutputStream {
     public static void main(String[] args) throws Exception {
         OutputStream outputStream = new FileOutputStream("output.txt");
         outputStream.write('H');
