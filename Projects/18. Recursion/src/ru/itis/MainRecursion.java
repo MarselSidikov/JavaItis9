@@ -19,7 +19,8 @@ public class MainRecursion {
             step++;
             return 1;
         }
-        int result = n * fact(n - 1);
+        // n! = (n - 1)! * n
+        int result = fact(n - 1) * n;
         System.out.println("<<< " + step + ", from fact(" + n + ") with result = " + result);
         step++;
         return result;
