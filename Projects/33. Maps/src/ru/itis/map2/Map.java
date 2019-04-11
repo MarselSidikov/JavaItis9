@@ -2,13 +2,13 @@ package ru.itis.map2;
 
 import ru.itis.Human;
 
-public class Map_2 {
+public class Map {
     private Human values[];
 
     private final static int DEFAULT_SIZE = 16;
 
-    public Map_2() {
-        values = new Human[16];
+    public Map() {
+        values = new Human[DEFAULT_SIZE];
     }
 
     public void put(String key, Human value) {

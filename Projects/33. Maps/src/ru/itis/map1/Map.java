@@ -2,7 +2,7 @@ package ru.itis.map1;
 
 import ru.itis.Human;
 
-public class Map_1 {
+public class Map {
     // массив для хранения ключей
     private String keys[];
     // массив для хранения значений
@@ -10,7 +10,7 @@ public class Map_1 {
     // количество пар {ключ-значение}
     private int count;
 
-    public Map_1() {
+    public Map() {
         // создаем два пустых массива
         keys = new String[10]; // массив ключей
         values = new Human[10]; // массив значений
